@@ -35,3 +35,8 @@ void display(int num,va_list ap)
         printf("%d",arg);
     }
 }
+/*output:
+99 68 Total = 167
+11 79 32 Total = 122
+23 34 45 56 78 Total = 236
+*/
