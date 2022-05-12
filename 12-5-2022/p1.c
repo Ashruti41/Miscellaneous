@@ -2,7 +2,7 @@
 
 #include<stdio.h>
 #include<stdarg.h>
-int sum(int , ...);
+int sum(int , ...);                                       //... represents unnamed argument which is passed to a function
 int main()
 {
     printf("Total = %d\n",sum(2,99,68));                //here 2 is a number and totoal is calculate with 99+68=167
